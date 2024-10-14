@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(105, 255, 180);
+
+    div.content{
+        display:flex;
+    }
+
+    div.content-left {
+        background-color: mintcream;
+        margin: 1px 10px 1px 10px;
+        padding: 1px 10px 20px 20px;
+        display:flex;
+        flex-flow: column wrap;
+        width: 500px;
+        justify-content: space-around;
+        border-style: solid;
+        border-color: rgb(100, 100, 255);
+        border-radius: 20px;
+    }
+
+    .content-left h1 {
+        font-size: 150%;
+        color: rgb(100, 100, 255);
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+
+    .content-left h2 {
+        font-size: 120%;
+        color: rgb(100, 100, 255);
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-align: center;
+    }
+
+    .content-left p {
+        font-size: 100%;
+        color: rgb(100, 100, 255);
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .content-left ol {
+        font-size: 100%;
+        color: rgb(100, 100, 255);
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .content-left ul {
+        font-size: 100%;
+        color: rgb(100, 100, 255);
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .content-left a {
+        font-size: 120%;
+        align-self: center;
+        color: rgb(117, 92, 209)
+    }
+
+
+
+    div.content-right {
+        background-color: mintcream;
+        margin: 1px 10px 1px 10px;
+        padding: 1px 10px 20px 10px;
+        align-items: center;
+        display:flex;
+        flex-flow: column wrap;
+        flex: 1;
+        justify-content: space-around;
+        border-style: solid;
+        border-color: rgb(100, 100, 255);
+        border-radius: 20px;
+    }
+
+    .content-right h2 {
+        font-size: 100%;
+        color: rgb(100, 100, 255);
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-align: center;
+    }
+
+    .content-right img {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 500px;
+        height: 400px;
+    }
+
+}
