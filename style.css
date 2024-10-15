@@ -1,26 +1,52 @@
 body {
-    background-color: rgb(105, 255, 180);
+    background-color: #ece6cd;
+
+
+
+    div.header{
+        background-color: #ece6cd;
+        margin: 1px 10px 5px 10px;
+        padding: 10px 5px 10px 1px;
+        display:flex;
+        flex:row wrap;
+        max-width: 100%;
+        justify-content: right;
+        border-style:solid;
+        border-color: #ee6a59;
+        border-radius: 5px;
+    }
+
+    .header a{
+        font-size: 120%;
+        color: #3a3f58;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
 
     div.content{
         display:flex;
     }
 
+
+
     div.content-left {
-        background-color: mintcream;
+        background-color: #ece6cd;
         margin: 1px 10px 1px 10px;
         padding: 1px 10px 20px 20px;
         display:flex;
         flex-flow: column wrap;
-        width: 500px;
+        width: 50%;
         justify-content: space-around;
         border-style: solid;
-        border-color: rgb(100, 100, 255);
+        border-color: #ee6a59;
         border-radius: 20px;
     }
 
     .content-left h1 {
         font-size: 150%;
-        color: rgb(100, 100, 255);
+        color: #3a3f58;
         margin-top: auto;
         margin-bottom: auto;
         text-align: center;
@@ -28,7 +54,7 @@ body {
 
     .content-left h2 {
         font-size: 120%;
-        color: rgb(100, 100, 255);
+        color: #3a3f58;
         margin-top: 1%;
         margin-bottom: 1%;
         text-align: center;
@@ -36,21 +62,21 @@ body {
 
     .content-left p {
         font-size: 100%;
-        color: rgb(100, 100, 255);
+        color: #3a3f58;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     .content-left ol {
         font-size: 100%;
-        color: rgb(100, 100, 255);
+        color: #3a3f58;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     .content-left ul {
         font-size: 100%;
-        color: rgb(100, 100, 255);
+        color: #3a3f58;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -58,28 +84,28 @@ body {
     .content-left a {
         font-size: 120%;
         align-self: center;
-        color: rgb(117, 92, 209)
+        color: #3a3f58;
     }
 
 
 
     div.content-right {
-        background-color: mintcream;
+        background-color: #ece6cd;
         margin: 1px 10px 1px 10px;
         padding: 1px 10px 20px 10px;
         align-items: center;
         display:flex;
         flex-flow: column wrap;
-        flex: 1;
+        width: 50%;
         justify-content: space-around;
         border-style: solid;
-        border-color: rgb(100, 100, 255);
+        border-color: #ee6a59;
         border-radius: 20px;
     }
 
     .content-right h2 {
         font-size: 100%;
-        color: rgb(100, 100, 255);
+        color: #3a3f58;
         margin-top: 1%;
         margin-bottom: 1%;
         text-align: center;
@@ -90,8 +116,114 @@ body {
         margin-bottom: 10px;
         margin-left: 5px;
         margin-right: 5px;
-        width: 500px;
-        height: 400px;
+        width: 400px;
+        height: 300px;
     }
 
+
+
+    div.container{
+        background-color: #f9ac67;
+    }
+    
+    .container img{
+        display: block;
+        width:200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.block{
+        background-color: #ee6a59;
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    div.container-2{
+        background-color: #f9ac67;
+        display: flex;
+        align-items: center;
+        height: 500px;
+    }
+
+    div.block-2{
+        background-color: #ee6a59;
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    div.container-3{
+        background-color: #f9ac67;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-style: solid;
+        border-color:#3a3f58;
+        border-radius: 5px;
+    }
+
+    div.block-3{
+        background-color: #ee6a59;
+        width: 200px;
+        height: 200px;
+        border-style: solid;
+        border-color:#3a3f58;
+    }
+
+
+
+    div.container-4{
+        border-style: solid;
+        border-color:#3a3f58;
+    }
+
+    div.block-left{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        position: relative;
+        left: 25px;
+        top: 100px;
+        border-style: solid;
+        border-color:red;
+    }
+    
+    div.block-between{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        position: relative;
+        left: 150px;
+        border-style: solid;
+        border-color: blue;
+    }
+
+    div.block-right{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        position: relative;
+        left: 275px;
+        bottom: 100px;
+        border-style: solid;
+        border-color:green;
+    }
+
+    .right-bottom{
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+    }
 }
