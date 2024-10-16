@@ -1,7 +1,48 @@
 body {
     background-color: #ece6cd;
 
+    h1 {
+        font-size: 150%;
+        color: #3a3f58;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
 
+    h2 {
+        font-size: 120%;
+        color: #3a3f58;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 100%;
+        color: #3a3f58;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    ol {
+        font-size: 100%;
+        color: #3a3f58;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    ul {
+        font-size: 100%;
+        color: #3a3f58;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    a {
+        font-size: 120%;
+        align-self: center;
+        color: #3a3f58;
+    }
 
     div.header{
         background-color: #ece6cd;
@@ -44,51 +85,6 @@ body {
         border-radius: 20px;
     }
 
-    .content-left h1 {
-        font-size: 150%;
-        color: #3a3f58;
-        margin-top: auto;
-        margin-bottom: auto;
-        text-align: center;
-    }
-
-    .content-left h2 {
-        font-size: 120%;
-        color: #3a3f58;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        text-align: center;
-    }
-
-    .content-left p {
-        font-size: 100%;
-        color: #3a3f58;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .content-left ol {
-        font-size: 100%;
-        color: #3a3f58;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .content-left ul {
-        font-size: 100%;
-        color: #3a3f58;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .content-left a {
-        font-size: 120%;
-        align-self: center;
-        color: #3a3f58;
-    }
-
-
-
     div.content-right {
         background-color: #ece6cd;
         margin: 1px 10px 1px 10px;
@@ -101,14 +97,6 @@ body {
         border-style: solid;
         border-color: #ee6a59;
         border-radius: 20px;
-    }
-
-    .content-right h2 {
-        font-size: 100%;
-        color: #3a3f58;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        text-align: center;
     }
 
     .content-right img {
