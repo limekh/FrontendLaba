@@ -217,40 +217,4 @@ body {
         margin: 0;
     }
 
-    table, th, td{
-        border: 2px solid #ee6a59;
-        border-collapse: collapse;
-        color: #3a3f58;
-    }
-
-    table{
-        width: 90%;
-        margin: auto;
-    }
-
-    caption{
-        color: #3a3f58;
-        font-weight: bold;
-        font-size: large;
-        margin: 10px 5px 5px 5px;
-    }
-
-    th{
-        background-color: #fabf8b;
-        text-align: left; 
-        padding: 5px 5px 5px 5px;
-    }
-
-    td{
-        text-align: center;
-        padding: 5px 10px 5px 10px;
-    }
-
-    tr:nth-child(even){
-        background-color: #d4ceb1;
-    }
-
-    tr:hover{
-        background-color: #fabf8b;
-    }
 }
