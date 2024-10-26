@@ -13,6 +13,19 @@
             <a href="page2.html">Позициирование элементов</a>
             <a href="table.html">Таблица</a>
         </div>
+        <script>
+            $(function(){
+                $("#form").submit(function(event){
+                    var form = event.target;
+                    var formData = new FormData(form);
+                    for (var pair of formData.entries()) {
+                        alert(pair[0] + ": " + pair[1]);
+                    }
+                    alert(Object.fromEntries(formData));
+                    return false;
+                })
+            });
+        </script>
         <div>
             <table>
                 <caption>Моя таблица</caption>
@@ -72,6 +85,29 @@
                 </tr>
             </table>
         </div>
+        <form>
+            <br><label for="fname">Фамилия И. О.</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fstud">Номер Студенческого</label><br>
+            <input type="text" id="fstud" name="fstud"><br>
+            <label for="fgroup">Номер Группы</label><br>
+            <select id="fgroup" name="fgroup"><br>
+                <option value="6211-100503D">6211-100503D</option>
+                <option value="6212-100503D">6212-100503D</option>
+            </select><br>
+            <label for="fsex">Пол</label><br>
+            <select id="fsex" name="fsex"><br>
+                <option value="Male">Мужской</option>
+                <option value="Female">Женский</option>
+            </select><br>
+            <label for="fdate">Дата Рождения</label><br>
+            <input type="text" id="fdate" name="fdate"><br>
+            <label for="fprog">Направление</label><br>
+            <select id="fprog" name="fprog"><br>
+                <option value="IBAS">ИБАС</option>
+            </select><br><br>
+            <input type="submit" value="Добавить">
+        </form>
     </body>
 
 </html>
